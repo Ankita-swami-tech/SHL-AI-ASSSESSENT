@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+print("========== LOADED app.py ==========")
 
 from schemas import (
     ChatRequest,
